@@ -1,0 +1,247 @@
+/* CSS Reset */
+*{
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+}
+/* Body */
+body{
+    padding: 0 20px;
+    scroll-behavior: smooth;
+}
+/* Title */
+.title{
+    margin-top: 20px;
+    text-align: center;
+}
+/* Subtitle */
+.subtitle{
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu > a {
+    text-decoration: none;
+}
+
+.menu-triangle {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 0px;
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.menu-jajargenjang{
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+/* Main Content*/
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+main.reset {
+    display: block;
+}
+
+.luas-segitiga{
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: blue;
+}
+/* Triangle */
+/* Luas Segitiga */
+.card {
+    border: 1px blue solid;
+    padding: 20px;
+    box-shadow: 0px 14px 5px -7px rgba(0,0,0,0.3);
+}
+
+img.gambar-segitiga{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rumusluas > p{
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.desc-rumus-triangle > p.tinggi{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.form-hitung > h1{
+    text-decoration: none;
+    color: black;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 7px;
+}
+.form-triangle{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-triangle > input{
+    padding: 8px 4px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.hitung{
+    padding : 8px 6px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.reset{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 6px;
+    margin-left: auto;
+}
+
+.form-triangle > div{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin-right: 730px;
+    margin-left: -650px;
+}
+/* Keliling Segitiga */
+.keliling-segitiga{
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: blue;
+}
+
+.rumuskeliling > p{
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.desc-rumuskel-triangle > p.sisi{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+/* Luas Jajar Genjang */
+.luas-jajargenjang{
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: blue;
+}
+
+img.gambar-jajargenjang{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc-rumus-jajargenjang > p.tinggi{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.form-jajargenjang{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-jajargenjang > div{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    text-align: center;
+    margin-right: 750px;
+    margin-left: -650px;
+}
+
+.form-jajargenjang > input {
+    padding: 8px 4px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.button-jajargenjang{
+    padding: 6px 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+
+
+/* Keliling Jajar Genjang */
+.keliling-jajargenjang{
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: blue;
+}
+
+.desc-rumuskel-jajargenjang > p.lebar{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    padding-bottom: 20px;
+}

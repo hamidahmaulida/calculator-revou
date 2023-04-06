@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="D:/21.11.4409/RevoU/calculator-01/css/index.css">
+    <script rel="script" src="D:/21.11.4409/RevoU/calculator-01/js/index.js"></script>
+</head>
+<body>
+    <!--Title-->
+   <h1 class="title">Welcome to Katik</h1>
+   <p class="subtitle">
+    Hai Sobat, Selamat datang di Katik :] <br>
+    Sebuah web apps sederhana yang berfungsi untuk menghitung
+    nilai luas dan keliling bangun datar
+   </p>
+   <!--Header-->
+   <header>
+    <nav>
+        <div class="menu">
+            <a href="#triangle" class="menu-triangle">Segitiga</a>
+            <a href="jajargenjang.html" class="menu-jajargenjang">Jajar Genjang</a>
+        </div>
+    </nav>
+   </header>
+   <!--Main Page-->
+   <main>
+    <section id="triangle">
+    <!--Menghitung Luas Segitiga-->
+    <div class="luas-segitiga">
+        <h2>Luas Segitiga</h2>
+    </div>
+    <div class="card">
+        <img class=gambar-segitiga src="assets/segitiga.png" alt="">
+        <div class="rumusluas">
+            <h4>Rumus Luas Segitiga yaitu :</h4>
+            <p class="luas-triangle"><b>L = 1/2 x a x t</b></p>
+        </div>
+        <div class="desc-rumus-triangle">
+            <p>Dimana:</p>
+            <p>L = Luas</p>
+            <p>a = Panjang Alas</p>
+            <p class="tinggi">t = Tinggi</p>
+        </div>
+        <div class="form-hitung">
+            <hr>
+            <h1 class="judul-luas">Hitung Luas Segitiga</h1>
+            <form action class="form-triangle">
+                <label for="alas-segitiga">Alas:</label>
+                <input class="alas1" type="number" id="alas" required>
+                <label for="tinggi-segitiga">Tinggi:</label>
+                <input class="tinggi1" type="number" id="tinggi" required>
+                <button type="submit"
+                class="hitung" id="output"
+                onclick="return luasTriangle()"
+                >Hitung
+                </button>
+                <div id="luas-segitiga"></div>
+                <input type="reset"
+                class="reset"
+                value="Reset">
+            </form>
+       </div>
+       <div>
+        </form>
+       </div>
+    </div>
+
+    <!--Menghitung Keliling Segitiga-->    
+    <div class="keliling-segitiga">
+        <h2>Keliling Segitiga</h2>
+    </div>
+    <div class="card">
+        <img class=gambar-segitiga src="assets/segitiga.png" alt="">
+        <div class="rumuskeliling">
+            <h4>Rumus Luas Segitiga yaitu :</h4>
+            <p class="rumus-keliling-triangle"><b>K = S1 + S2 + S3</b></p>
+        </div>
+        <div class="desc-rumuskel-triangle">
+            <p>Dimana:</p>
+            <p>K = Keliling</p>
+            <p>S1 = Sisi a</p>
+            <p>S2 = Sisi b</p>
+            <p class="sisi">S3 = Sisi c</p>
+        </div>
+        <div class="form-hitung">
+            <hr>
+            <h1 class="judul-keliling">Hitung Keliling Segitiga</h1>
+            <form action class="form-triangle">
+                <input class="sisia" type="number" id="S1" required>
+                <input class="sisib" type="number" id="S2" required>
+                <input class="sisic" type="number" id="S3" required>
+                <button type="submit"
+                class="hitung"
+                onclick="return kelilingTriangle()"
+                >Hitung
+                </button>
+                <div id="keliling-segitiga"></div>
+                <button type="reset"
+                class="reset"
+                onclick="reset()"
+                >Reset
+                </button>
+            </form>
+       </div>
+    </div>
+     </section>
+</main>
+<!--Footer-->
+    <footer>Copyright 2023 Hamidah Maulida Khasanah at RevoU</footer>
+</body>
+</html>
